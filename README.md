@@ -19,14 +19,14 @@ Bot WhatsApp untuk VPS Ubuntu dengan fitur:
 - `media/`
 
 ## Cara upload ke GitHub
-1. Buat repo baru di GitHub, misalnya `wa-bot-vps-ready`
+1. Buat repo baru di GitHub, misalnya `wa-bot-vps`
 2. Upload semua isi folder ini ke repo
 3. Ganti `USERNAME` di README dan `install.sh` dengan username GitHub kamu
 
 ## Install manual di VPS
 ```bash
-git clone https://github.com/USERNAME/wa-bot-vps-ready.git /root/wa-bot-vps-ready
-cd /root/wa-bot-vps-ready
+git clone https://github.com/mhdisa96/wa-bot-vps.git /root/wa-bot-vps
+cd /root/wa-bot-vps
 npm install
 cp .env.example .env
 node index.js
@@ -35,7 +35,7 @@ node index.js
 ## Install singkat
 Setelah repo ini ada di GitHub kamu:
 ```bash
-git clone https://github.com/USERNAME/wa-bot-vps-ready.git /root/wa-bot-vps-ready && cd /root/wa-bot-vps-ready && bash install.sh
+git clone https://github.com/mhdisa96/wa-bot-vps.git /root/wa-bot-vps && cd /root/wa-bot-vps && bash install.sh
 ```
 
 ## Isi `.env`
