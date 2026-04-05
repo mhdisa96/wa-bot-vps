@@ -19,7 +19,7 @@ echo "📡 INSTALL PM2"
 npm install -g pm2
 
 echo "▶️ START BOT"
-pm2 start index.js --name wa-bot
+pm2 start index.js --name wa-bot-vps
 pm2 save
 
 echo "✅ SELESAI"
