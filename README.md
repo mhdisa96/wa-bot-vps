@@ -52,7 +52,7 @@ COMMAND_PREFIX=.
 ```bash
 cd /root/wa-bot-vps
 npm install -g pm2
-pm2 start index.js --name wa-bot
+pm2 start index.js --name wa-bot-vps
 pm2 save
 pm2 startup
 ```
