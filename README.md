@@ -24,12 +24,12 @@ Bot WhatsApp untuk VPS Ubuntu dengan fitur:
 3. Ganti `USERNAME` di README dan `install.sh` dengan username GitHub kamu
 
 ## Instal NodeJS
-'''bash
+```bash
 apt update
 apt install -y curl
 curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 apt install -y nodejs
-'''
+```
 
 ## Install manual di VPS
 ```bash
