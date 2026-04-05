@@ -50,7 +50,7 @@ COMMAND_PREFIX=.
 
 ## Jalankan pakai PM2
 ```bash
-cd /root/wa-bot-vps-ready
+cd /root/wa-bot-vps
 npm install -g pm2
 pm2 start index.js --name wa-bot
 pm2 save
